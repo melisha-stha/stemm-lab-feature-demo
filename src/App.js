@@ -14,7 +14,6 @@ function App() {
     <div className="App" style={{ padding: '50px', textAlign: 'center', fontFamily: 'Arial, sans-serif', backgroundColor: '#f4f7f6', minHeight: '100vh' }}>
       <header className="App-header" style={{ backgroundColor: 'white', padding: '40px', borderRadius: '15px', boxShadow: '0 4px 12px rgba(0,0,0,0.1)', display: 'inline-block' }}>
         
-        {/* CHECK THIS LINE: It must use t('welcome') */}
         <h1 style={{ color: '#333', marginBottom: '10px' }}>{t('welcome')}</h1>
         
         <p style={{ fontSize: '1.2rem', margin: '20px 0', color: '#666' }}>
